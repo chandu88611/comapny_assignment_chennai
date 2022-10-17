@@ -1,0 +1,76 @@
+.sales{
+    width: 100%;
+}    
+    
+    .sales>h3{
+    margin-left: 1vw;
+}
+.img2{
+    /* width: 25rem; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row1>p{
+    margin-right: 1vw;
+    font-size: small;
+  font-weight: bold;
+}
+.row1{
+    display: flex;
+    margin-top: -1.5vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.bullet3 {
+ background-color: rgb(248, 19, 134);
+ width: 1rem;
+ height: 1rem;
+ border-radius: 50%;
+}
+.bullet4 {
+    background-color: rgb(240, 202, 157);
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+}
+
+@media screen and (max-width : 800px){
+.sales{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+    .img2{
+        margin-top: 1rem;
+        /* margin-left: 1vw; */
+        width: 14rem;
+        height: 12rem;
+        display: flex;
+        justify-content: center;
+    }
+.row1>p{
+
+    display: block;
+    font-size: 1.3rem;
+
+}
+.row1{
+    margin-top: -1rem;
+}
+.bullet3{
+    width: .7rem;
+    height: .7rem;
+}
+ .bullet4{
+    width: .7rem;
+    height: .7rem;
+}
+    .sales>h3{
+        margin-left: -8rem;
+    }
+}

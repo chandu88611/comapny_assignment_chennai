@@ -1,0 +1,49 @@
+.video{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.video>video{
+    width: 80%;
+    height: 8rem;
+/* margin-left: 10%; */
+margin-top: 5%;
+}
+.line2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.line2>h4{
+    margin-left: -2rem;
+    margin-right: 7rem;
+}
+
+
+@media screen and (max-width : 800px){
+    .line2>h4{
+        margin-left: -2rem;
+        margin-right: 10rem;
+        font-size: 1.2rem;
+    }
+
+    .video>video{
+        width: 20rem;
+        height: 8rem;
+    margin-left: -1.5%;
+    margin-bottom: 10%;
+    }
+    .video{
+   
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    .but_div{
+        margin-left: .8rem;
+        height: 3rem;
+    }
+}
